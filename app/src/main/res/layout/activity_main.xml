@@ -8,29 +8,31 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
         android:text="61"
         android:textAlignment="center"
-        android:layout_marginTop="200dp"
         android:textSize="40sp"
         android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/prime"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="PRIME"
         android:layout_marginTop="100dp"
+        android:text="PRIME"
         android:textAlignment="center"
         android:textSize="40sp"
         android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/notPrime"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="NOT PRIME"
         android:layout_marginTop="100dp"
-
+        android:text="NOT PRIME"
         android:textAlignment="center"
         android:textSize="40sp"
         android:textStyle="bold" />
